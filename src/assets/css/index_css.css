@@ -1,0 +1,38 @@
+.Element {
+    padding-top: 0.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+ }
+
+
+ .Element-p{
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+ }
+
+.aling {
+    width: 100px;
+    float: right;
+}
+ .pos{
+    right: 5px;
+} 
+
+.Name {
+    padding-top: 2%;
+    padding-left: 5%;
+    left: 2%;
+}
+
+.aling img{
+    width: 150px;
+    float: right;
+}
+ .pos img{
+    right: 5px;
+} 
+
+.footer{
+    padding-top: 2%;
+}
