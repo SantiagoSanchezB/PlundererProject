@@ -6,10 +6,10 @@ const Footer_A = () => (
         <footer class="d-flex flex-wrap justify-content-between py-2 border-top">
             <div class="col-md-4 d-flex align-items-center">
                 <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"/>
-                <span class="text-muted">&copy; 2021 Santiago Sanchez</span>
+                <span class="text-muted">&copy; 2023 Santiago Sanchez</span>
             </div>
-            <ul class="nav col-md-4 justify-content-end list-unstyled">
-                <li class="ms-3"><a class="text-muted" href="https://github.com/SantiagoSanchezB/react-class"><img src={logoGit}/></a></li>
+            <ul class="nav col-md-2 justify-content-end list-unstyled">
+                <li class="ms-3"><a class="text-muted" href="https://github.com/SantiagoSanchezB"><img src={logoGit}/></a></li>
                 <li class="ms-3"><a class="text-muted" href="#"></a></li>
                 <li class="ms-3"><a class="text-muted" href="#"></a></li>
             </ul>
