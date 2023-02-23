@@ -28,18 +28,18 @@ class Formulario extends Component{
     render(){
         return(
             <div id="Elemento" class="Element">
-                <h1>Formulario</h1>
+                <h1>Form for Contact</h1>
                 <form action="">
-                    <label htmlFor="">Nombre</label>
-                    <input class="form-control name" type="text" name="nombre" placeholder="Ingrese el nombre" onChange={
+                    <label htmlFor="">Email</label>
+                    <input class="form-control name form_input" type="text" name="nombre" placeholder="Ingrese el nombre" onChange={
                         (i) => this.setState({
                             nombre: i.target.value
                         })
                     }/>
                     <div id="emailHelp" class="form-text">{`Nombre ${this.state.nombre}`}</div>
-                    <hr class="dropdown-divider name"/>
-                    <label htmlFor="">Apellido</label>
-                    <input class="form-control name" type="text" name="apellido" placeholder="Ingrese el nombre" onChange={
+                    <hr class="col-sm-5 dropdown-divider name"/>
+                    <label htmlFor="">Password</label>
+                    <input class="form-control name form_input" type="text" name="apellido" placeholder="Ingrese el nombre" onChange={
                         (i) => this.setState({
                             apellido: i.target.value
                         })
