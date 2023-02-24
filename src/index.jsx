@@ -7,7 +7,7 @@ ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  document.getElementById('Header')
+  document.getElementById('Page')
 );
 
 
