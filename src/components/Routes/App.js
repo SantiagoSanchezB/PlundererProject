@@ -6,6 +6,7 @@ import PersonajeDetalle from '../Pages/PersonajeDetalle';
 import MainMenu from '../Pages/MainMenu';
 import Contacto from '../Molecules/Contacto';
 import DatosApi from '../Molecules/DatosApi';
+import Moments from '../Pages/Moments';
 
 const App = () => (
   <Router> 
@@ -16,6 +17,7 @@ const App = () => (
         <Route path="/Personajes/:id" exact component={ PersonajeDetalle }/>
         <Route path="/Contacto" exact component={ Contacto }/>
         <Route path="/API" exact component={DatosApi}/>
+        <Route path="/Moments" exact component={Moments}/>
         <Route component={() =>(
           <h1>Pagina no encontrada</h1>
         )} />

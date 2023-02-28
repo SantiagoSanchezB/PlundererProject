@@ -9,7 +9,7 @@ const Footer = () => (
                 <span class="text-muted">&copy; 2021 Santiago Sanchez</span>
             </div>
             <ul class="nav col-md-4 justify-content-end list-unstyled">
-                <li class="ms-3"><a class="text-muted" href="https://github.com/SantiagoSanchezB/react-class"><img src={logoGit}/></a></li>
+                <li class="ms-3"><a class="text-muted" href="https://github.com/SantiagoSanchezB/"><img src={logoGit}/></a></li>
                 <li class="ms-3"><a class="text-muted" href="#"></a></li>
                 <li class="ms-3"><a class="text-muted" href="#"></a></li>
             </ul>

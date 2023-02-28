@@ -61,7 +61,7 @@
 }
 
 .Logo {
-    width: 60px;
+    width: 80px;
     height: 30px;
     padding-right: 5px;
 }
@@ -97,10 +97,11 @@
     border-color:dimgray;
 }
 
-.Targets {
+.Synopsis {
+    margin-top: 10%;
     margin-left: 5%;
     width: 100%;
-    height: 100vh;
+    height: 50vh;
 }
 
 .nameH {
@@ -111,7 +112,7 @@
     font-size: 20px;
 }
 
-.content {
+.contentH {
     display: grid;
     grid-template-columns: 2fr 2fr;
 }
@@ -121,3 +122,112 @@
     margin-left: 2%;
     border-radius: 20px;
 }
+
+.contentF{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding-top: 1%;
+    font-size: 25px;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+}
+
+.contentF ul{
+    list-style: none;
+}
+
+.Poster {
+    border-radius: 20px;
+}
+
+.Ficha {
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 100%;
+    height: 50vh;
+}
+
+.Trailer {
+    margin-left: 5%;
+}
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+  
+  .form-control-dark {
+    color: #fff;
+    background-color: var(--bs-dark);
+    border-color: var(--bs-gray);
+  }
+  .form-control-dark:focus {
+    color: #fff;
+    background-color: var(--bs-dark);
+    border-color: #fff;
+    box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+  }
+  
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+  
+  .text-small {
+    font-size: 85%;
+  }
+  
+  .dropdown-toggle {
+    outline: 0;
+  }
+
+  .ElementCls {
+    margin-left: 17%;
+  }
+  
+  .ElementCls textarea{
+    width: 40%;
+  }
+
+  .contentV {
+    width: 100%;
+    height: 70vh;
+  }
+
+  .TrailerVid {
+    margin-top: 2%;
+    margin-left: 10%;
+    width: 70%;
+    height: 100%;
+  }
+
+  .TitleMoments {
+    margin-left: 25%;
+  }
+
+  .Moments {
+    width: 100%;
+    margin-left: 18%;
+    height: 100vh;
+  }
+
+  .VideosM {
+    width: 50%;
+    margin-left: 6%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+  }
+
+  .Videos {
+    width: 100%;
+    height: 16vh;
+  }
+
+  .video {
+    margin-top: 10%;
+    margin-left: 10%;
+  }
+
