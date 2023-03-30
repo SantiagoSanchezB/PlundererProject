@@ -1,26 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@200&display=swap');
 
+ 
+/*Estilos para personaje*/
+
 .Element {
     padding-top: 0.5%;
     padding-left: 5%;
     padding-right: 5%;
- }
-
-
- .Element-p{
-    padding-top: 1%;
-    padding-left: 5%;
-    padding-right: 5%;
- }
-
-.aling {
-    width: 100px;
-    float: right;
 }
- .pos{
-    right: 5px;
-} 
+
+.Personajes {
+  width: 70%;
+  margin-left: 15%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.imgcontent > img{
+  height: 30vh;
+  object-fit: cover;
+}
+
+.card {
+  display: grid;
+  grid-template-rows: 1fr 0.7fr;
+  margin-bottom: 4%;
+}
+
 
 .Name {
     padding-top: 2%;
@@ -28,22 +35,7 @@
     left: 2%;
 }
 
-.aling img{
-    width: 150px;
-    float: right;
-}
- .pos img{
-    right: 5px;
-} 
-
-.footer{
-    padding-top: 2%;
-}
-
-.index {
-    padding: 0;
-}
-
+/* Estilos para index*/
 .foto {
     margin: 1%;
     width: 98%;
@@ -53,21 +45,19 @@
     box-shadow: 5px 8px 12px black;
 }
 
+
+.contentMain {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 0.3fr 0.8fr 0.5fr;
+  margin-left: 5%;
+}
+
 .foto img {
     width: 100%;
     height: 90vh;
     opacity: 30%;
     border-radius: 20px;
-}
-
-.Logo {
-    width: 80px;
-    height: 30px;
-    padding-right: 5px;
-}
-
-.form_input {
-    width: 40%;
 }
 
 .foto .text {
@@ -82,152 +72,323 @@
 }
 
 .little-text {
-    font-family: 'Sofia Sans Semi Condensed', sans-serif;
-    padding-left: 21%;
-    font-size: 1.2rem;
+  font-family: 'Sofia Sans Semi Condensed', sans-serif;
+  padding-left: 21%;
+  font-size: 1.2rem;
 }
 
 .Litch img {
-    opacity: 100;
-    width: 20%;
-    height: 20%;
-    margin-left:27%;
-    border-radius: 120px;
-    border: 6px solid;
-    border-color:dimgray;
+  opacity: 100;
+  width: 20%;
+  height: 20%;
+  margin-left:27%;
+  border-radius: 120px;
+  border: 6px solid;
+  border-color:dimgray;
 }
 
+
 .Synopsis {
-    margin-top: 10%;
-    margin-left: 5%;
-    width: 100%;
-    height: 50vh;
+  width: 100%;
+  height: 50vh;
 }
 
 .nameH {
-    margin-top: 5%;
+  margin-top: 5%;
 }
 
 .textH {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .contentH {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
 }
 
 .CounterH {
-    width: 80%;
-    margin-left: 2%;
-    border-radius: 20px;
+  width: 80%;
+  height: 100%;
+  margin-left: 2%;
+  border-radius: 20px;
 }
 
 .contentF{
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    padding-top: 1%;
-    font-size: 25px;
-    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  padding-top: 1%;
+  font-size: 25px;
+  font-family: 'Sofia Sans Semi Condensed', sans-serif;
 }
 
 .contentF ul{
-    list-style: none;
+  list-style: none;
 }
 
 .Poster {
-    border-radius: 20px;
-}
-
-.Ficha {
-    margin-top: 5%;
-    margin-left: 5%;
-    width: 100%;
-    height: 50vh;
+  border-radius: 20px;
 }
 
 .Trailer {
-    margin-left: 5%;
+display: grid;
+grid-template-columns: 1fr;
+width: 100%;
+height: 100vh;
 }
 
-.b-example-divider {
-    height: 3rem;
-    background-color: rgba(0, 0, 0, .1);
-    border: solid rgba(0, 0, 0, .15);
-    border-width: 1px 0;
-    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-  }
+.contentV {
+  width: 100%;
+  height: 70vh;
+}
+
+.TrailerVid {
+  margin-top: 2%;
+  margin-left: 10%;
+  width: 70%;
+  height: 100%;
+}
+
+/*Estilos para header*/
+
+.Logo {
+    width: 80px;
+    height: 30px;
+    padding-right: 5px;
+}
+
+/* Estilos para Formulario de contacto*/
+
+.form_input {
+    width: 40%;
+}
+
+.ElementCls {
+  margin-left: 17%;
+}
   
-  .form-control-dark {
-    color: #fff;
-    background-color: var(--bs-dark);
-    border-color: var(--bs-gray);
+.ElementCls textarea{
+  width: 40%;
+}
+
+/*Estilos para moments*/
+
+.TitleMoments {
+  margin-left: 25%;
+}
+
+.Moments {
+  width: 100%;
+  margin-left: 18%;
+  height: 100vh;
+}
+
+.VideosM {
+  width: 50%;
+  margin-left: 6%;
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+}
+
+.Videos {
+  width: 100%;
+  height: 16vh;
+}
+
+.video {
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+
+@media only screen and (max-width: 600px){
+  /*Estilos para index*/
+  body {
+    width: 100%;
   }
-  .form-control-dark:focus {
-    color: #fff;
-    background-color: var(--bs-dark);
-    border-color: #fff;
-    box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+  .Ficha {
+    margin-top: 6%;
+    margin-left: 4%;
   }
-  
-  .bi {
-    vertical-align: -.125em;
-    fill: currentColor;
+  .contentF{
+    display: grid;
+    grid-template-rows: 1fr 0.5fr;
+    grid-template-columns: 1fr;
   }
-  
-  .text-small {
-    font-size: 85%;
+
+  .listaF {
+    margin-left: -10%;
+    margin-top: 4%;
   }
-  
-  .dropdown-toggle {
-    outline: 0;
+  .foto img {
+    width: 100%;
+    height: 70vh;
+    opacity: 30%;
+    border-radius: 20px;
+  }
+  .foto {
+    margin: 1%;
+    width: 98%;
+    height: 70vh;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 5px 8px 12px black;
+  }
+  .Litch img {
+    opacity: 100;
+    width: 60%;
+    height: 20%;
+    margin-left:3%;
+    margin-top: 2%;
+    border-radius: 120px;
+    border: 6px solid;
+    border-color:dimgray;
+  }
+  .foto .text {
+   font-family: 'Bungee', cursive;
+   font-size: 2rem;
+   color: white;
+   margin-left: -2%;
+  }
+  .little-text {
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    padding-left: 1%;
+    width: 70%;
+    font-size: 1rem;
+  } 
+
+  .Synopsis {
+    width: 98%;
+    height: 50vh;
+  }
+
+  .nameH {
+      margin-top: 5%;
+  }
+
+  .textH {
+      font-size: 20px;
+  }
+
+  .contentH {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 0.5fr;
+  }
+
+  .CounterH {
+      width: 90%;
+      height: 100%;
+      margin-left: 1%;
+      margin-bottom: 5%;
+      border-radius: 20px;
+  }
+
+  .Trailer {
+    margin-top: 35%;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    height: 50vh;
+  }
+
+  .TrailerVid{
+    height: 50%;
+    width: 98%;
+    margin-left: -2%;
+  }
+
+  /*Estilos para Personajes*/
+
+  .Element {
+    padding: 0;
+  }
+
+  .Personajes {
+    width: 90%;
+    margin-left: 1%;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .imgcontent > img{
+    height: 40vh;
+    object-fit: cover;
+  }
+
+  .card-perso {
+    display: grid;
+    grid-template-rows: 1fr 0.7fr;
+    margin-bottom: 4%;
+  }
+
+
+  .Name {
+      padding-top: 2%;
+      padding-left: 5%;
+      left: 2%;
+  }
+
+  .vrt {
+    padding-left: 35%;
+    padding-bottom: 3%;
+  }
+
+  /*Estilos para moments*/
+
+  .TitleMoments {
+    margin-left: 19%;
+  }
+
+  .Moments {
+    width: 100%;
+    margin-left: 4%;
+    height: 360vh;
+  }
+
+  .VideosM {
+    width: 80%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .Videos {
+    width: 100%;
+    height: 30vh;
+  }
+
+  .video {
+    margin-top: 10%;
+    margin-left: 5%;
+  }
+
+  /* Estilos para Formulario de contacto*/
+
+  .form_input {
+    width: 80%;
   }
 
   .ElementCls {
     margin-left: 17%;
   }
-  
+
   .ElementCls textarea{
-    width: 40%;
+    width: 80%;
   }
 
-  .contentV {
-    width: 100%;
-    height: 70vh;
+  .ElementCls > a {
+    padding-bottom: 30%;
   }
 
-  .TrailerVid {
-    margin-top: 2%;
-    margin-left: 10%;
-    width: 70%;
-    height: 100%;
+  .name {
+    width: 80%;
   }
 
-  .TitleMoments {
-    margin-left: 25%;
+  .btn-coment{
+    margin-bottom: 40%;
   }
 
-  .Moments {
-    width: 100%;
-    margin-left: 18%;
-    height: 100vh;
-  }
+}
 
-  .VideosM {
-    width: 50%;
-    margin-left: 6%;
-    margin-top: 5%;
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-  }
-
-  .Videos {
-    width: 100%;
-    height: 16vh;
-  }
-
-  .video {
-    margin-top: 10%;
-    margin-left: 10%;
-  }
 

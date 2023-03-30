@@ -7,7 +7,6 @@ import Footer from '../Organisms/Footer';
 const Contacto = () => (
     <>
         <Formulario/>
-        <Footer/> 
     </>
 );
 

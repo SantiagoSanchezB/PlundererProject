@@ -45,7 +45,6 @@ const Moments = () => (
                 </div>
             </div>
         </div>
-        <Footer/>
     </div>
     
 )

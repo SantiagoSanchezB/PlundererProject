@@ -8,7 +8,7 @@ const Personaje = [
         "id":1,
         "nombre": "Licht Bach",
         "edad": 300,
-        "count" : "10,000,000",
+        "count" : "50,000,000",
         "especie" : "Humano Modificado",
         "img" : Imagenes.Licht
     },
@@ -59,7 +59,7 @@ const Contenedor = () => (
         {
             Personaje.map(S => <Personajes nombre= {S.nombre} edad ={S.edad} count={S.count} especie={S.especie} img={S.img} id={S.id}/>)
         }
-        <Footer_A class="footer"/>
+        
     </>
 );
 

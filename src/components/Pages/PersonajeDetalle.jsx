@@ -66,10 +66,12 @@ const DetallePersonaje = ({match}) =>{
         <> 
             {
                 personaje ? (
-                    <div class="Element" >  
-                        <div className="card">
+                    <div class="Element">
+                        <div class="card card">
+                            <div class ="imgcontent">
+                                <img src={personaje.img} class="card-img-top" alt={personaje.img}/>
+                            </div>
                             <div class="card-body">
-                                <img class="aling pos img-fluid rounded-circle" src={personaje.img}/>
                                 <h5 class="card-title">{personaje.nombre}</h5>
                                 <p class="card-text">Edad: {personaje.edad}</p>
                                 <p class="card-text">Count: {personaje.count}</p>
@@ -81,10 +83,9 @@ const DetallePersonaje = ({match}) =>{
                 ):
                 <h1>El id del personaje no existe</h1>
             }
-            <div class="Element">
+            <div class="vrt">
                 <a href={`/Personajes`} class="btn btn-dark">Ver todos</a>
             </div>
-            <Footer/>
         </>
     );
 }

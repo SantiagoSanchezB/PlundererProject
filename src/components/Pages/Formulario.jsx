@@ -28,10 +28,10 @@ class Formulario extends Component{
     render(){
         return(
             <div id="Elemento" class="ElementCls">
-                <h1>Form for Contact</h1>
+                <h1>Coments</h1>
                 <form action="">
                     <label htmlFor="">Email</label>
-                    <input class="form-control name form_input" type="email" name="nombre" placeholder="Ingrese el nombre" /*onChange={
+                    <input class="form-control form_input" type="email" name="nombre" placeholder="Please digit your name" /*onChange={
                         (i) => this.setState({
                             nombre: i.target.value
                         })
@@ -44,19 +44,19 @@ class Formulario extends Component{
                             apellido: i.target.value
                         })
                     }/>*/}
-                    <textarea class="form-control name" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <textarea class="form-control name" rows="3"></textarea>
                     {/*<div id="emailHelp" class="form-text">{`Apellido ${this.state.apellido}`}</div>*/}<br/>
-                    <input class="btn btn-success s-100" type="button" value="Enviar" data-bs-toggle="modal" data-bs-target="#SuccessRegistry"/>
+                    <input class="btn btn-success btn-coment s-100" type="button" value="Enviar" data-bs-toggle="modal" data-bs-target="#SuccessRegistry"/>
                 </form>
                 <div class="modal fade" id="SuccessRegistry" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <h5 class="modal-title" id="exampleModalLabel">Gracias por tu comentario</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            ...
+                            Se ha enviado exitosamente!!
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
