@@ -4,6 +4,7 @@ import Hina from '../../assets/img/HinaAnime.png';
 import Saika from '../../assets/img/SakaiTokikazeAnime.png';
 import Sonohara from '../../assets/img/SonoharaMizukaAnime.png';
 import Gespen from '../../assets/img/PelePoporoAnime.png';
+import Schmelman from '../../assets/img/Schmelman.jpg';
 
 export default{
     "Nana": Nana,
@@ -11,5 +12,6 @@ export default{
     "Hina": Hina,
     "Saika": Saika,
     "Sonohara" : Sonohara,
-    "Gespen": Gespen
+    "Gespen": Gespen,
+    "Schmelman" : Schmelman
 }

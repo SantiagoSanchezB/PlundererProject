@@ -5,6 +5,7 @@ import App from './components/Routes/App.js';
 import Personajes from './components/Routes/Personajes';
 import Footer from './components/Organisms/Footer_A';
 import './assets/css/index_css.css';
+import PersonajesAPI from './components/Routes/PersonajesAPI';
 
 
 ReactDOM.render(
@@ -19,6 +20,13 @@ ReactDOM.render(
     <Personajes/>
   </React.StrictMode>,
   document.getElementById('Element')
+);
+
+ReactDOM.render(
+  <React.StrictMode>
+    <PersonajesAPI/>
+  </React.StrictMode>,
+  document.getElementById('ElementAPI')
 );
 
 ReactDOM.render(

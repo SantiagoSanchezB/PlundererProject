@@ -51,10 +51,18 @@ const Personaje = [
         "count" : "120",
         "especie" : "Humano Modificado",
         "img" : Imagenes.Gespen
+    },
+    {
+        "id":7,
+        "nombre": "Schmelman Bach",
+        "edad": "300+",
+        "count" : "Ilimited",
+        "especie" : "Humano",
+        "img" : Imagenes.Schmelman
     }
 ]
 
-const Contenedor = () => (
+const ContenedorA = () => (
     <>
         {
             Personaje.map(S => <Personajes nombre= {S.nombre} edad ={S.edad} count={S.count} especie={S.especie} img={S.img} id={S.id}/>)
@@ -63,4 +71,4 @@ const Contenedor = () => (
     </>
 );
 
-export default Contenedor;
+export default ContenedorA;

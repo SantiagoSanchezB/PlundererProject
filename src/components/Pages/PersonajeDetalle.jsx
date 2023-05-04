@@ -57,6 +57,15 @@ const personajes = [
         "especie" : "Humano Modificado",
         "img" : Imagenes.Gespen,
         "Arma" : "Glock 17"
+    },
+    {
+        "id":6,
+        "nombre": "Schmelman Bach",
+        "edad": "300+",
+        "count" : "Ilimited",
+        "especie" : "Humano",
+        "img" : Imagenes.Schmelman,
+        "Arma" : "No need for a weapon"
     }
 ]
 
