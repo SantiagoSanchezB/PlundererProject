@@ -1,85 +1,39 @@
-import React, {Component} from 'react';
-import '../../assets/css/index_css.css';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
-class Formulario extends Component{
-    constructor (props){
-        super(props)
+export const Formulario = () => {
+  const form = useRef();
 
-        this.state = {
-            nombre : "",
-            apellido: ""
-        }
-        this.cambiarNombre = this.cambiarNombre.bind(this);
-        this.cambiarApellido = this.cambiarApellido.bind(this);
-    }
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-    cambiarNombre(e){
-        this.setState({
-            Nombre: e.target.value
-        });
-    }
+    emailjs.sendForm('service_pgaqpwd', 'template_ubba12u', form.current, '80BBsmBQNC4YRJebH')
+      .then((result) => {
+          console.log(result.text);
+          alert("Se envio correctamente");
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
 
-    cambiarApellido(e){
-        this.setState({
-            Apellido: e.target.value
-        });
-    }
-
-    render(){
-        return(
-            <div id="Elemento" class="ElementCls">
+  return (
+    <div id="Elemento" class="ElementCls">
                 <h1>Coments</h1>
-                <form action="">
+                <form ref={form} onSubmit={sendEmail} className='form'>
+                    <label htmlFor="">Nombre</label>
+                    <input class="form-control form_input" type="text" name="user_name" placeholder="Please digit your name"/>
+                    <br/>
                     <label htmlFor="">Email</label>
-                    <input class="form-control form_input" type="email" name="nombre" placeholder="Please digit your name" /*onChange={
-                        (i) => this.setState({
-                            nombre: i.target.value
-                        })
-                    }*//>
-                    {/* <div id="emailHelp" class="form-text">{`Nombre ${this.state.nombre}`}</div> */}<br/>
-                    <hr class="col-sm-5 dropdown-divider name"/>
+                    <input class="form-control form_input" type="email" name="user_email" placeholder="Please digit your name"/>
+                    <br/>
+                    <hr class="col-sm-7 dropdown-divider name"/>
                     <label htmlFor="">Comment</label>
-                    {/*<input class="form-control name form_input" type="text" name="apellido" placeholder="Ingrese el nombre" onChange={
-                        (i) => this.setState({
-                            apellido: i.target.value
-                        })
-                    }/>*/}
-                    <textarea class="form-control name" rows="3"></textarea>
-                    {/*<div id="emailHelp" class="form-text">{`Apellido ${this.state.apellido}`}</div>*/}<br/>
-                    <input class="btn btn-success btn-coment s-100" type="button" value="Enviar" data-bs-toggle="modal" data-bs-target="#SuccessRegistry"/>
+                    <textarea class="form-control name" rows="3" name='message'></textarea>
+                    <br/>
+                    <input class="btn btn-success btn-coment s-100" type="submit" value="Enviar"/>
                 </form>
-                <div class="modal fade" id="SuccessRegistry" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Gracias por tu comentario</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            Se ha enviado exitosamente!!
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-
             </div>
-        )
-    }
-
-    componentDidMount(){
-        let Elemento = document.getElementById("Elemento")
-        console.log(Elemento)
-    }
-
-    componentDidUpdate(prevProps, prevState){ 
-        console.log(prevState);
-        console.log(prevProps);
-        console.log("-----------------------")
-    }
-}
+  );
+};
 
 export default Formulario;

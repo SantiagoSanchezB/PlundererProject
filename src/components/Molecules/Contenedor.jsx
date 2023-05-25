@@ -1,7 +1,6 @@
 import React from 'react';
 import Personajes from '../Pages/Personajes';
 import Imagenes from './Imagenes';
-import Footer_A from '../Organisms/Footer_A';
 
 const Personaje = [
     {

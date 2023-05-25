@@ -183,7 +183,7 @@ height: 100vh;
 /* Estilos para Formulario de contacto*/
 
 .form_input {
-    width: 40%;
+    width: 70%;
 }
 
 .ElementCls {
@@ -191,7 +191,12 @@ height: 100vh;
 }
   
 .ElementCls textarea{
-  width: 40%;
+  width: 70%;
+}
+
+.form {
+  height: 100vh;
+  height: 80vh;
 }
 
 /*Estilos para moments*/
