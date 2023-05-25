@@ -8,9 +8,10 @@ const Personaje = [
         "id":1,
         "nombre": "Licht Bach",
         "edad": 300,
-        "count" : "50,000,000",
+        "count" : "10,000,000",
         "especie" : "Humano Modificado",
-        "img" : Imagenes.Licht
+        "img" : Imagenes.Licht,
+        "Arma" : "Longs Sword"
     },
     {
         "id":2,
@@ -18,7 +19,8 @@ const Personaje = [
         "edad": 23,
         "count" : "763",
         "especie" : "Humano",
-        "img" : Imagenes.Hina
+        "img" : Imagenes.Hina,
+        "Arma" : "None"
     },
     {
         "id":3,
@@ -26,7 +28,8 @@ const Personaje = [
         "edad": 300,
         "count" : "1",
         "especie" : "Humano Modificado",
-        "img" : Imagenes.Nana
+        "img" : Imagenes.Nana,
+        "Arma" : "Longs Sword"
     },
     {
         "id":4,
@@ -34,7 +37,8 @@ const Personaje = [
         "edad": 300,
         "count" : "5,246,639",
         "especie" : "763",
-        "img" : Imagenes.Saika
+        "img" : Imagenes.Saika,
+        "Arma" : "Longs Sword"
     },
     {
         "id":5,
@@ -42,7 +46,8 @@ const Personaje = [
         "edad": 300,
         "count" : "32000",
         "especie" : "Humano Modificado",
-        "img" : Imagenes.Sonohara
+        "img" : Imagenes.Sonohara,
+        "Arma" : "Longs Sword"
     },
     {
         "id":6,
@@ -50,15 +55,17 @@ const Personaje = [
         "edad": 300,
         "count" : "120",
         "especie" : "Humano Modificado",
-        "img" : Imagenes.Gespen
+        "img" : Imagenes.Gespen,
+        "Arma" : "Glock 17"
     },
     {
-        "id":7,
+        "id":6,
         "nombre": "Schmelman Bach",
         "edad": "300+",
         "count" : "Ilimited",
         "especie" : "Humano",
-        "img" : Imagenes.Schmelman
+        "img" : Imagenes.Schmelman,
+        "Arma" : "No need for a weapon"
     }
 ]
 

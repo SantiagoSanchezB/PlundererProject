@@ -28,7 +28,7 @@ class PersonajesApi   extends Component{
                         posts.map( u => (
                             <>
                                 <div className='PersonajesAPI'>
-                                    <div class="cardAPI card-persoAPI">
+                                    <div class="cardAPI card-persoAPI card">
                                         <div class ="imgcontent">
                                             <img src={u.img} class="card-img-top" alt={u.img}/>
                                         </div>
@@ -36,7 +36,7 @@ class PersonajesApi   extends Component{
                                             <h5 class="card-title">{u.nombre}</h5>
                                             <p class="card-text">Edad: {u.edad}</p>
                                             <p class="card-text">Count: {u.count}</p>
-                                            <p class="card-text">Especie: {u.specie}</p>
+                                            <p class="card-text">Especie: {u.especie}</p>
                                             <p><a href={`/Personajes/${u.id}`} class="btn btn-outline-secondary">Detalle</a></p>
                                         </div>
                                     </div>
