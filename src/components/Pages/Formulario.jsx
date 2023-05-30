@@ -4,7 +4,7 @@ import emailjs from '@emailjs/browser';
 export const Formulario = () => {
   const form = useRef();
 
-  const sendEmail = (e) => {
+  const enviarForm = (e) => {
     e.preventDefault();
 
     emailjs.sendForm('service_pgaqpwd', 'template_ubba12u', form.current, '80BBsmBQNC4YRJebH')
@@ -19,7 +19,7 @@ export const Formulario = () => {
   return (
     <div id="Elemento" class="ElementCls">
                 <h1>Coments</h1>
-                <form ref={form} onSubmit={sendEmail} className='form'>
+                <form ref={form} onSubmit={enviarForm} className='form'>
                     <label htmlFor="">Nombre</label>
                     <input class="form-control form_input" type="text" name="user_name" placeholder="Please digit your name"/>
                     <br/>
