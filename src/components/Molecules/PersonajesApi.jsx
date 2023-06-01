@@ -12,7 +12,7 @@ class PersonajesApi   extends Component{
     }
 
     componentDidMount(){
-        axios.get('https://my-json-server.typicode.com/SantiagoSanchezB/DataJs-Plundere/Personajes')
+        axios.get('http://127.0.0.1:8000/api/data')
         .then(resp =>{
             this.setState({
                 posts: resp.data
