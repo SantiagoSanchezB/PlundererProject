@@ -58,7 +58,7 @@ const Personaje = [
         "Arma" : "Glock 17"
     },
     {
-        "id":6,
+        "id":7,
         "nombre": "Schmelman Bach",
         "edad": "300+",
         "count" : "Ilimited",
