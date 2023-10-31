@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ce88b91f.css",
+    "main.js": "/static/js/main.ad7e55a9.js",
+    "static/js/787.52af06d9.chunk.js": "/static/js/787.52af06d9.chunk.js",
+    "static/media/LichtBachAnime_2.png": "/static/media/LichtBachAnime_2.a6b7f715107bba7ce4c1.png",
+    "static/media/CounterH.png": "/static/media/CounterH.afbe3da526c5ccd570db.png",
+    "static/media/Plunderer.jpg": "/static/media/Plunderer.3264629df2401cb1f464.jpg",
+    "static/media/Schmelman.jpg": "/static/media/Schmelman.0d603c000d0a5e1d6aa2.jpg",
+    "static/media/NanaBasslerAnime.png": "/static/media/NanaBasslerAnime.2340c1aa0863823d83cd.png",
+    "static/media/Plunderer_Logo.png": "/static/media/Plunderer_Logo.78d1011405b9e3866ab6.png",
+    "static/media/Poster.jpg": "/static/media/Poster.a739e0be82bb01863f5d.jpg",
+    "static/media/SakaiTokikazeAnime.png": "/static/media/SakaiTokikazeAnime.4de5706d37902740bd63.png",
+    "static/media/LichtBachAnime.png": "/static/media/LichtBachAnime.c419f7e43a05d44abb17.png",
+    "static/media/HinaAnime.png": "/static/media/HinaAnime.7b0789f2dabb2efe9d1c.png",
+    "static/media/SonoharaMizukaAnime.png": "/static/media/SonoharaMizukaAnime.8599a40a31707660b130.png",
+    "static/media/PelePoporoAnime.png": "/static/media/PelePoporoAnime.8d03fd7d8c08fa2daf54.png",
+    "index.html": "/index.html",
+    "static/media/github.svg": "/static/media/github.22e65707326e3e1e37afd21c5334995a.svg",
+    "main.ce88b91f.css.map": "/static/css/main.ce88b91f.css.map",
+    "main.ad7e55a9.js.map": "/static/js/main.ad7e55a9.js.map",
+    "787.52af06d9.chunk.js.map": "/static/js/787.52af06d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce88b91f.css",
+    "static/js/main.ad7e55a9.js"
+  ]
+}

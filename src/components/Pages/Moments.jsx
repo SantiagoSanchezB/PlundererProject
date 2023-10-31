@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../assets/css/index_css.css';
-import Footer from '../Organisms/Footer_A';
 
 const Moments = () => (
     <div className="">

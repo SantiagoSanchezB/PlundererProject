@@ -6,12 +6,16 @@ import Sonohara from '../../assets/img/SonoharaMizukaAnime.png';
 import Gespen from '../../assets/img/PelePoporoAnime.png';
 import Schmelman from '../../assets/img/Schmelman.jpg';
 
-export default{
-    "Nana": Nana,
-    "Licht": Licht,
-    "Hina": Hina,
-    "Saika": Saika,
-    "Sonohara" : Sonohara,
-    "Gespen": Gespen,
-    "Schmelman" : Schmelman
-}
+const Imagenes = () => (
+    {
+        "Nana": Nana,
+        "Licht": Licht,
+        "Hina": Hina,
+        "Saika": Saika,
+        "Sonohara" : Sonohara,
+        "Gespen": Gespen,
+        "Schmelman" : Schmelman
+    }
+);
+
+export default Imagenes;

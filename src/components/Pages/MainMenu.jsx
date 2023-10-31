@@ -1,7 +1,6 @@
 import React from 'react';
 import '../../assets/css/index_css.css';
 import Foto from '../../assets/img/Plunderer.jpg';
-import { NavLink } from 'react-router-dom';
 import Litch from '../../assets/img/LichtBachAnime_2.png';
 import CounterH from '../../assets/img/CounterH.png';
 import Poster  from '../../assets/img/Poster.jpg';

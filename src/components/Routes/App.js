@@ -1,10 +1,9 @@
-import React, { Component }  from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Header from '../Organisms/Header';
 import MainMenu from '../Pages/MainMenu';
 import Contacto from '../Molecules/Contacto';
 import Moments from '../Pages/Moments';
-import PersonajesApi from '../Molecules/PersonajesApi';
 
 
 const App = () => (
