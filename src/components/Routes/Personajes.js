@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Contenedor from '../Molecules/Contenedor';
 import PersonajeDetalle from '../Pages/PersonajeDetalle';
+import Personajes from '../Pages/Personajes';
 
 
 

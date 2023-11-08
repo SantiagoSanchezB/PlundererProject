@@ -1,6 +1,6 @@
 import React from 'react';
 import Personajes from '../Pages/Personajes';
-import Imagenes from './Imagenes';
+import Imagenes from './Imagenes'
 
 const Personaje = [
     {
@@ -68,7 +68,7 @@ const Personaje = [
     }
 ]
 
-const ContenedorA = () => (
+const Contenedor = () => (
     <>
         {
             Personaje.map(S => <Personajes nombre= {S.nombre} edad ={S.edad} count={S.count} especie={S.especie} img={S.img} id={S.id}/>)
@@ -77,4 +77,4 @@ const ContenedorA = () => (
     </>
 );
 
-export default ContenedorA;
+export default Contenedor;

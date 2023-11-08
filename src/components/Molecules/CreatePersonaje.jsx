@@ -13,6 +13,7 @@ const CrearPersonaje = () => {
     event.preventDefault();
 
     const formData = {
+      id:12,
       nombre: nombre,
       edad: edad,
       count: count,
@@ -21,7 +22,7 @@ const CrearPersonaje = () => {
       img : img
     };
 
-    axios.post('http://127.0.0.1:8000/api/register', formData)
+    axios.post('https://my-json-server.typicode.com/SantiagoSanchezB/json-plunderer/Personajes', formData)
       .then(response => {
         console.log(response.data);
       })

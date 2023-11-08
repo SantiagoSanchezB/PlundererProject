@@ -2,8 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import '../../assets/css/index_css.css';
 import { Link } from 'react-router-dom';
+import Imagenes from '../Molecules/Imagenes';
 
-const Personajes = ({nombre, edad, count, especie,img,id}) => (
+const Personajes = ({nombre, edad, count, especie, img, id}) => (
     <div class="Element">
         <div class="card card-perso">
             <div class ="imgcontent">

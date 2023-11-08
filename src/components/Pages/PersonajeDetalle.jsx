@@ -10,7 +10,7 @@ class Personajes extends React.Component {
   }
 
   componentDidMount() {
-    axios.get('http://127.0.0.1:8000/api/data')
+    axios.get('https://my-json-server.typicode.com/SantiagoSanchezB/json-plunderer/Personajes')
       .then(resp => {
         this.setState({
           posts: resp.data
@@ -40,7 +40,7 @@ class Personajes extends React.Component {
                   <p className="card-text">Arma: {personaje.Arma}</p>
                   <br />
                   <div className="vrt">
-                    <a href="/PersonajesAPI" className="btn btn-dark">Ver todos</a>
+                    <a href="/Personajes" className="btn btn-dark">Ver todos</a>
                   </div>
                 </div>
               </div>
