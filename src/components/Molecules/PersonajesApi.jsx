@@ -24,9 +24,6 @@ class PersonajesApi   extends Component{
         const {posts} = this.state;
         return(
             <>
-                <div className='Button new'>
-                    <a href='/RegistrarPersonaje' className='btn btn-success new-character'>New Character</a>
-                </div>
                 <div class="PersonajesAPI">
                     {
                         posts.map( u => (
@@ -39,7 +36,7 @@ class PersonajesApi   extends Component{
                                         <div class="card-body">
                                             <h5 class="card-title">{u.nombre}</h5>
                                             <p class="card-text">Edad: {u.edad}</p>
-                                            <p class="card-text">Count: {u.count}</p>
+                                            <p class="card-text">Count: {u.countC}</p>
                                             <p class="card-text">Especie: {u.especie}</p>
                                             <p><a href={`/Personajes/${u.id}`} class="btn btn-outline-secondary">Detail</a></p>
                                         </div>

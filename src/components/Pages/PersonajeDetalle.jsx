@@ -15,36 +15,56 @@ class Personajes extends React.Component {
         this.setState({
           posts: resp.data
         });
-      });
+      })
   }
 
   render() {
     const { posts } = this.state;
     const { match } = this.props;
-    const personaje = posts.filter(c => c.id === parseInt(match.params.id))[0];
+    const personaje = posts.find(c => c.id === parseInt(match.params.id));
 
     return (
       <>
         {
           personaje ? (
-            <div className="Detalle">
-              <div className="card-detalle card">
-                <div className="imgcontentA">
-                  <img src={personaje.img} className="card-img-top" alt={personaje.img} />
-                </div>
-                <div className="card-body">
-                  <h5 className="card-title">{personaje.nombre}</h5>
-                  <p className="card-text">Edad: {personaje.edad}</p>
-                  <p className="card-text">Count: {personaje.count}</p>
-                  <p className="card-text">Especie: {personaje.especie}</p>
-                  <p className="card-text">Arma: {personaje.Arma}</p>
-                  <br />
-                  <div className="vrt">
-                    <a href="/Personajes" className="btn btn-dark">Ver todos</a>
-                  </div>
+            <section className="Detalle">
+              <div className="section">
+                <h1>{personaje.nombre}</h1>
+
+                <div className='Personality'>
+                  <h2>Personality</h2>
+                  <p>{personaje.personality}</p>
                 </div>
               </div>
-            </div>
+              <div className="right">
+                <img src={personaje.img} alt={personaje.img} />
+                <div>
+                  <p>Kanji</p>
+                  <ul className='list-perso'>
+                    {personaje.kanji}
+                  </ul>
+                  <hr class="hr" />
+                  <p>First Count:</p>
+                  <ul className='list-perso'>
+                    {personaje.countS[0].firstcount.map((item, index) => (
+                      <li key={index}>{item}</li>
+                    ))}
+                  </ul>
+
+                  {personaje.countS[0].secondcount && (
+                    <>
+                      <hr class="hr" />
+                      <p>Second Count:</p>
+                      <ul>
+                        {personaje.countS[0].secondcount.map((item, index) => (
+                          <li key={index}>{item}</li>
+                        ))}
+                      </ul>
+                    </>
+                  )}
+                </div>
+              </div>
+            </section>
           ) :
           <h1>El id del personaje no existe</h1>
         }

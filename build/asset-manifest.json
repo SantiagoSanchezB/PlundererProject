@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ce88b91f.css",
-    "main.js": "/static/js/main.ad7e55a9.js",
+    "main.css": "/static/css/main.87667cb0.css",
+    "main.js": "/static/js/main.a718df26.js",
     "static/js/787.52af06d9.chunk.js": "/static/js/787.52af06d9.chunk.js",
     "static/media/LichtBachAnime_2.png": "/static/media/LichtBachAnime_2.a6b7f715107bba7ce4c1.png",
     "static/media/CounterH.png": "/static/media/CounterH.afbe3da526c5ccd570db.png",
@@ -17,12 +17,12 @@
     "static/media/PelePoporoAnime.png": "/static/media/PelePoporoAnime.8d03fd7d8c08fa2daf54.png",
     "index.html": "/index.html",
     "static/media/github.svg": "/static/media/github.22e65707326e3e1e37afd21c5334995a.svg",
-    "main.ce88b91f.css.map": "/static/css/main.ce88b91f.css.map",
-    "main.ad7e55a9.js.map": "/static/js/main.ad7e55a9.js.map",
+    "main.87667cb0.css.map": "/static/css/main.87667cb0.css.map",
+    "main.a718df26.js.map": "/static/js/main.a718df26.js.map",
     "787.52af06d9.chunk.js.map": "/static/js/787.52af06d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce88b91f.css",
-    "static/js/main.ad7e55a9.js"
+    "static/css/main.87667cb0.css",
+    "static/js/main.a718df26.js"
   ]
 }

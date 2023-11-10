@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import Contenedor from '../Molecules/Contenedor';
 import PersonajeDetalle from '../Pages/PersonajeDetalle';
 import Personajes from '../Pages/Personajes';
 
@@ -9,7 +8,6 @@ import Personajes from '../Pages/Personajes';
 const PersonajesConst = () => (
   <Router> 
     <Switch>
-        <Route path="/Personajes" exact component={ Contenedor }/>
         <Route path="/Personajes/:id" exact component={ PersonajeDetalle }/>
         <Route path="/"/>
         <Route path="/Contacto"/>
