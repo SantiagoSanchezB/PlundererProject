@@ -127,7 +127,6 @@ body {
 .footer {
   position: static;
   bottom: 0;
-
   width: 100%;
   background-color: white;
 }
@@ -200,7 +199,7 @@ height: 100vh;
     padding-right: 5px;
 }
 
-/* Estilos para Formulario de contacto*/
+/* Estilos para Form1ario de contacto*/
 
 .form_input {
     width: 70%;
@@ -287,21 +286,47 @@ height: 100vh;
 
 
 @media only screen and (max-width: 600px){
+
+  .index {
+    max-width: 600px;
+    min-width: 400px;
+    margin-left: -6%;
+    margin-right: 2%;
+  }
+
+  .contentV {
+    width: 95%;
+    height: 55vh;
+  }
+
+  .footer {
+    position: static;
+    margin-bottom: -20%;
+    width: 100%;
+    background-color: white;
+  }
+
   /*detalle*/
 
   .Detalle {
     margin-left: 3%;
     width: 100%;
-    height: 100%;
+    height: 90%;
+    display: grid;
+    grid-template-columns: 1fr 200px;
   }
 
   /*API*/
 
   .PersonajesAPI {
-    width: 70%;
-    margin-left: 6%;
+    width: 100%;
+    margin-left: 8%;
     display: grid;
     grid-template-columns: 1fr;
+  }
+
+  .cardAPI {
+    width: 80%;
   }
 
   /*Estilos para index*/
@@ -321,6 +346,7 @@ height: 100vh;
   .listaF {
     margin-left: -10%;
     margin-top: 4%;
+    margin-right: 9%;
   }
   .foto img {
     width: 100%;
@@ -342,6 +368,8 @@ height: 100vh;
     margin-top: 2%;
     border-radius: 120px;
     border: 6px solid;
+    width: 60%;
+    height: 40%;
     border-color:dimgray;
   }
   .foto .text {
@@ -368,6 +396,7 @@ height: 100vh;
 
   .textH {
       font-size: 20px;
+      margin-right: 3%;
   }
 
   .contentH {
@@ -397,6 +426,7 @@ height: 100vh;
     width: 98%;
     margin-left: -2%;
   }
+
 
   /*Estilos para Personajes*/
 
